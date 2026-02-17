@@ -123,5 +123,13 @@ namespace Distribuidora
             panelHome.Controls.Add(cadastrarCategoria);
             cadastrarCategoria.Dock = DockStyle.Fill;
         }
+
+        private void relatórioDeVendasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            panelHome.Controls.Clear();
+            var rela = new RelatorioVendas();
+            panelHome.Controls.Add(rela);
+            rela.Dock = DockStyle.Fill;
+        }
     }
 }

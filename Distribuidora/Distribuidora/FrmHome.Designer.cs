@@ -205,14 +205,14 @@
             // cadastrarMarcaMenu
             // 
             cadastrarMarcaMenu.Name = "cadastrarMarcaMenu";
-            cadastrarMarcaMenu.Size = new Size(180, 22);
+            cadastrarMarcaMenu.Size = new Size(171, 22);
             cadastrarMarcaMenu.Text = "Cadastrar Marca";
             cadastrarMarcaMenu.Click += cadastrarMarcaMenu_Click;
             // 
             // vincularCategoriaToolStripMenuItem
             // 
             vincularCategoriaToolStripMenuItem.Name = "vincularCategoriaToolStripMenuItem";
-            vincularCategoriaToolStripMenuItem.Size = new Size(180, 22);
+            vincularCategoriaToolStripMenuItem.Size = new Size(171, 22);
             vincularCategoriaToolStripMenuItem.Text = "Vincular Categoria";
             vincularCategoriaToolStripMenuItem.Click += vincularCategoriaToolStripMenuItem_Click;
             // 
@@ -226,14 +226,14 @@
             // cadastrarCategoriaToolStripMenuItem
             // 
             cadastrarCategoriaToolStripMenuItem.Name = "cadastrarCategoriaToolStripMenuItem";
-            cadastrarCategoriaToolStripMenuItem.Size = new Size(180, 22);
+            cadastrarCategoriaToolStripMenuItem.Size = new Size(178, 22);
             cadastrarCategoriaToolStripMenuItem.Text = "Cadastrar Categoria";
             cadastrarCategoriaToolStripMenuItem.Click += cadastrarCategoriaToolStripMenuItem_Click;
             // 
             // vincularMarcaToolStripMenuItem
             // 
             vincularMarcaToolStripMenuItem.Name = "vincularMarcaToolStripMenuItem";
-            vincularMarcaToolStripMenuItem.Size = new Size(180, 22);
+            vincularMarcaToolStripMenuItem.Size = new Size(178, 22);
             vincularMarcaToolStripMenuItem.Text = "Vincular Marca";
             // 
             // recebimentoToolStripMenuItem
@@ -262,6 +262,7 @@
             relatórioDeVendasToolStripMenuItem.Name = "relatórioDeVendasToolStripMenuItem";
             relatórioDeVendasToolStripMenuItem.Size = new Size(182, 22);
             relatórioDeVendasToolStripMenuItem.Text = "Relatório de Vendas";
+            relatórioDeVendasToolStripMenuItem.Click += relatórioDeVendasToolStripMenuItem_Click;
             // 
             // relatórioDeEstoqueMenuItem
             // 
